@@ -201,7 +201,7 @@ namespace RTF.Framework
         /// A timeout value in milliseconds, after which
         /// any running test will be killed.
         /// </summary>
-        public int Timeout { get; set; } = 160000;
+        public int Timeout { get; set; } = 900000;
 
         /// <summary>
         /// A flag to specify whether to concatenate test 
